@@ -1,75 +1,107 @@
-Pokemon Finder App with Next.js & Tailwind CSS
+<div align="center">
+  <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png" width="150" />
+  <h1>
+    Pokédex Finder App 📖
+  </h1>
+  <p>
+    A simple and modern Pokédex application built with Next.js & Tailwind CSS. <br /> Explore and search for your favorite Pokémon!
+  </p>
+
+  <!-- Badges -->
+  <p>
+    <a href="https://github.com/chumangkorn/nextjs-tailwindcss/graphs/commit-activity">
+      <img src="https://img.shields.io/github/last-commit/chumangkorn/nextjs-tailwindcss?style=for-the-badge" alt="Last Commit">
+    </a>
+    <a href="https://github.com/chumangkorn/nextjs-tailwindcss/issues">
+      <img src="https://img.shields.io/github/issues/chumangkorn/nextjs-tailwindcss?style=for-the-badge" alt="Issues">
+    </a>
+    <a href="https://github.com/chumangkorn/nextjs-tailwindcss/blob/main/LICENSE">
+      <img src="https://img.shields.io/github/license/chumangkorn/nextjs-tailwindcss?style=for-the-badge" alt="License">
+    </a>
+  </p>
+
+</div>
+
+---
+
+## ✨ Features
+
+- **Browse Pokémon:** View a list of Pokémon with their images on the homepage.
+- **Search Functionality:** Easily search for any Pokémon by its name.
+- **Detailed Information:** Click on a Pokémon to see its details, including abilities, types, weight, and stats.
+- **Responsive Design:** Fully responsive layout that works on desktop, tablets, and mobile devices.
+- **Fast & Modern:** Built with the latest Next.js App Router for a great user experience.
+
+---
+
+## 🚀 Live Demo
+
+*(Add a link to your deployed application here)*
+
+[**[ Live Demo ]**](https://your-deployment-link.com)
+
+---
+
+## 🛠️ Technologies Used
+
+- ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+- ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+- ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+- ![PokeAPI](https://img.shields.io/badge/PokéAPI-EF5350?style=for-the-badge&logo=pokemon&logoColor=white)
+- ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+
+---
+
+## 📸 Screenshots
+
+*(Add screenshots of your application here to showcase its features)*
+
+| Homepage                                 | Pokémon Details Page                    |
+| ---------------------------------------- | --------------------------------------- |
+| ![Homepage Screenshot](https://placehold.co/600x400/2d3748/ffffff?text=Homepage) | ![Details Screenshot](https://placehold.co/600x400/2d3748/ffffff?text=Details+Page) |
 
 
+---
 
-(แนะนำ: บันทึกภาพหน้าจอของแอปพลิเคชันที่รันเสร็จแล้ว และนำมาใส่ตรงนี้เพื่อให้คนอื่นเห็นภาพรวมของโปรเจกต์ได้ทันที)
+## ⚙️ Getting Started
 
-📝 คำอธิบาย (Description)
-โปรเจกต์นี้คือเว็บแอปพลิเคชันสำหรับค้นหาและแสดงข้อมูลโปเกมอน สร้างขึ้นด้วย Next.js (App Router) และใช้ Tailwind CSS ในการออกแบบหน้าตาให้สวยงามและตอบสนองต่อทุกขนาดหน้าจอ (Responsive) โดยดึงข้อมูลทั้งหมดมาจาก PokeAPI แบบ Real-time
+Follow these instructions to get a copy of the project up and running on your local machine.
 
-ผู้ใช้สามารถดูรายชื่อโปเกมอนทั้งหมด, ค้นหาโปเกมอนที่ต้องการด้วยชื่อ, และคลิกเพื่อดูรายละเอียดเชิงลึกของโปเกมอนแต่ละตัวได้
+### Prerequisites
 
-✨ ฟีเจอร์หลัก (Features)
-แสดงรายการโปเกมอน: แสดงรายชื่อโปเกมอนทั้งหมดพร้อมรูปภาพจาก PokeAPI
-ค้นหาโปเกมอน: สามารถกรอกชื่อโปเกมอนในช่องค้นหาเพื่อแสดงข้อมูลของโปเกมอนตัวนั้นๆ
-ดูข้อมูลรายละเอียด: คลิกที่โปเกมอนเพื่อเข้าไปยังหน้าแสดงรายละเอียดเฉพาะตัว เช่น น้ำหนัก, ความสามารถ (Abilities), และประเภท (Types)
-Routing แบบไดนามิก: ใช้ Dynamic Routes ของ Next.js ในการสร้างหน้ารายละเอียดสำหรับโปเกมอนแต่ละตัว (/pokeinfo/[id]) และหน้าผลการค้นหา (/pokesearch/[pokeName])
-ดีไซน์สวยงามและทันสมัย: ออกแบบด้วย Tailwind CSS และใช้ Font จาก next/font (Geist)
-Client-Side Rendering (CSR): ใช้ useEffect และ useState ในการดึงและจัดการข้อมูลฝั่ง Client
-🛠️ เทคโนโลยีที่ใช้ (Tech Stack)
-Framework: Next.js 15
-Library: React 19
-Styling: Tailwind CSS
-Data Fetching API: PokeAPI
-Linting: ESLint
-Deployment: แนะนำให้ใช้ Vercel
-🚀 การติดตั้งและเริ่มใช้งาน (Getting Started)
-ทำตามขั้นตอนต่อไปนี้เพื่อรันโปรเจกต์บนเครื่องของคุณ
+Make sure you have Node.js (version 18.x or higher) installed on your system.
 
-สิ่งที่ต้องมี (Prerequisites)
-Node.js (เวอร์ชัน 18.18.0 หรือสูงกว่า)
-npm, yarn, หรือ pnpm
-ขั้นตอนการติดตั้ง
-Clone a repository:
+### Installation
 
-Bash
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/](https://github.com/)[your-username]/[your-repo-name].git
+    ```
 
-git clone https://github.com/your-username/your-repository-name.git
-cd your-repository-name
-ติดตั้ง Dependencies:
+2.  **Navigate to the project directory:**
+    ```bash
+    cd [your-repo-name]
+    ```
 
-Bash
+3.  **Install the dependencies:**
+    ```bash
+    npm install
+    # or
+    yarn install
+    # or
+    pnpm install
+    ```
 
-npm install
-รัน Development Server:
+4.  **Run the development server:**
+    ```bash
+    npm run dev
+    ```
 
-Bash
+    Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
 
-npm run dev
-เปิดเบราว์เซอร์แล้วไปที่ http://localhost:3000 เพื่อดูผลลัพธ์
+---
 
-📜 Scripts ที่มีให้ (Available Scripts)
-ในโปรเจกต์นี้มี Scripts ที่ตั้งค่าไว้แล้วดังนี้:
+## 📜 License
 
-npm run dev: รันแอปพลิเคชันในโหมด Development
-npm run build: สร้างแอปพลิเคชันสำหรับ Production
-npm run start: รันแอปพลิเคชันที่ Build เสร็จแล้ว (โหมด Production)
-npm run lint: ตรวจสอบความถูกต้องของโค้ดด้วย ESLint
-🔧 การกำหนดค่า (Configuration)
-Environment Variables
-โปรเจกต์นี้ใช้ PokeAPI ซึ่งเป็น Public API จึง ไม่จำเป็นต้องตั้งค่า Environment Variables ใดๆ เพิ่มเติม
+This project is distributed under the MIT License. See `LICENSE` for more information.
 
-การตั้งค่า Next.js (next.config.mjs)
-มีการตั้งค่าเพิ่มเติมเพื่อให้สามารถแสดงรูปภาพจาก raw.githubusercontent.com ซึ่งเป็นแหล่งที่มาของรูปโปเกมอนได้
-
-JavaScript
-
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  images:{
-    domains:["raw.githubusercontent.com"]
-  }
-};
-export default nextConfig;
-📄 ใบอนุญาต (License)
-โปรเจกต์นี้อยู่ภายใต้ใบอนุญาต MIT ดูรายละเอียดเพิ่มเติมได้ที่ไฟล์ LICENSE
