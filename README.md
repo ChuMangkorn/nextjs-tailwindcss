@@ -75,7 +75,7 @@ Make sure you have Node.js (version 18.x or higher) installed on your system.
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/](https://github.com/)[your-username]/[your-repo-name].git
+    git clone [[https://github.com/](https://github.com/)[your-username]/[your-repo-name].git](https://github.com/ChuMangkorn/nextjs-tailwindcss.git)
     ```
 
 2.  **Navigate to the project directory:**
