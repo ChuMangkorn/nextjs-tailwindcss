@@ -38,7 +38,7 @@
 
 *(Add a link to your deployed application here)*
 
-[**[ Live Demo ]**] nextjs-tailwindcss-eight.vercel.app
+[**[ Live Demo ]**] [nextjs-tailwindcss-eight.vercel.app](https://nextjs-tailwindcss-eight.vercel.app/)
 
 ---
 
