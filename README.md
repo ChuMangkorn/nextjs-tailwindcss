@@ -58,7 +58,7 @@
 
 | Homepage                                 | Pokémon Details Page                    |
 | ---------------------------------------- | --------------------------------------- |
-| ![Homepage Screenshot](https://github.com/user-attachments/assets/a018cf70-854c-4ca4-b2cf-0acb7c5c2688) | ![Details Screenshot](https://github.com/user-attachments/assets/8728c934-ad50-493d-af1c-8d7aab228972") |
+| ![Homepage Screenshot](https://github.com/user-attachments/assets/a018cf70-854c-4ca4-b2cf-0acb7c5c2688) | ![Details Screenshot](https://github.com/user-attachments/assets/8728c934-ad50-493d-af1c-8d7aab228972) |
 
 
 ---
